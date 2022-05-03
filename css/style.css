@@ -65,3 +65,114 @@ a:hover {
 .whatsapp-text span {
   font-weight: bold;
 }
+
+.hero-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 80px;
+  margin-top: 48px;
+}
+/* HERO SECTION BEGINNING */
+
+.hero-text {
+  padding-top: 96px;
+}
+.hero-text h1 {
+  width: 624px;
+  height: 252px;
+  right: 976px;
+  top: 252px;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 64px;
+  line-height: 84px;
+
+  letter-spacing: -0.03em;
+
+  color: #1e1b1b;
+  text-transform: capitalize;
+}
+
+.hero-text p {
+  align-items: center;
+  font-size: 14px;
+  padding-left: 4px;
+}
+.hero-text-small {
+  display: flex;
+  align-items: center;
+}
+
+.hero-text-icon {
+  width: 24px;
+  height: 24px;
+  stroke: #f1f3f5;
+}
+
+.hero-text h6 {
+  color: #939191;
+}
+
+/* HERO SECTION IMAGE */
+.hero-image {
+  background-image: url(../img/hero-image.png);
+  background-size: cover;
+  background-position: center;
+  width: 605px;
+  height: 632px;
+  left: 995px;
+  top: 170px;
+}
+
+.hero-image-small,
+.hero-image-small-2 {
+  display: flex;
+  width: 281.64px;
+  height: 102px;
+  left: 965px;
+  top: 251px;
+
+  background: linear-gradient(138.85deg, #ffffff -38.72%, #ffffff 153.95%);
+  border: 12px solid rgba(225, 225, 225, 0.43);
+  box-shadow: 0px 28px 118px rgba(109, 108, 115, 0.12);
+  border-radius: 59px;
+  align-items: center;
+}
+
+.hero-image-small {
+  font-weight: bold;
+  margin-top: 80px;
+  margin-left: -24px;
+}
+
+.hero-image-small-2 {
+  margin-top: 300px;
+  margin-left: 350px;
+  padding: 16px;
+}
+
+.hero-image-small-2 p {
+  display: flex;
+  flex-direction: column;
+  margin-right: 4px;
+  margin-left: 4px;
+}
+
+.img-24 {
+  width: 69.66px;
+  height: 70px;
+  left: 978.93px;
+  top: 266px;
+  margin-right: 8px;
+}
+
+.hero-icon {
+  fill: #ffd700;
+  width: 24px;
+  height: 24px;
+}
+
+.hero-icon-2 {
+  width: 24px;
+  height: 24px;
+}
