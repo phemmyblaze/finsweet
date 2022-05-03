@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700&display=swap");
+/* SPACING SYSTEM (PX)
+
+ 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 /64 / 80 / 96 / 128
+ 
+ */
+/* FONT SIZE SYSTEM (PX) 
+
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 
+
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #fff;
+  font-family: "Manrope", Sans-serif;
+}
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 12px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+li {
+  padding-left: 40px;
+  align-items: center;
+}
+li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+a:hover {
+  color: #ff6433;
+}
+.whatsapp {
+  display: flex;
+}
+
+.whatsapp img {
+  margin-right: 8px;
+}
+
+.whatsapp-text p {
+  color: #112a46;
+}
+.whatsapp-text span {
+  font-weight: bold;
+}
