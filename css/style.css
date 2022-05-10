@@ -955,3 +955,18 @@ a:hover {
 .service-2 {
   margin-bottom: 250px;
 }
+
+/* About styling */
+
+/* contact styling */
+
+.contact-image {
+  background-image: url(../img/contact-image.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.contact-img {
+  padding-bottom: 128px;
+}
