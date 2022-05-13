@@ -1412,3 +1412,22 @@ a:hover {
 .other-news {
   background: #fff;
 }
+
+.blog-button {
+  margin-top: 36px;
+}
+
+.blog-button a {
+  text-decoration: none;
+  color: #fff;
+  background-color: #ff6433;
+  padding: 16px 40px;
+  border-radius: 12px;
+  margin-top: 24px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.blog-button a:hover {
+  background-color: #d9480f;
+}
