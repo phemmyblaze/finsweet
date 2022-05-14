@@ -1358,13 +1358,13 @@ a:hover {
 }
 
 .blog-btn {
-  display: flex;
+  display: grid;
   margin-top: 16px;
 }
 
 .blog-text {
   margin-top: 16px;
-  margin-left: 8px;
+  margin-left: 4px;
 }
 
 .blog-content {
@@ -1421,7 +1421,7 @@ a:hover {
   text-decoration: none;
   color: #fff;
   background-color: #ff6433;
-  padding: 16px 40px;
+  /* padding: 16px 40px; */
   border-radius: 12px;
   margin-top: 24px;
   font-size: 18px;
