@@ -1,7 +1,8 @@
 const button = document.querySelector("#btn");
 const form = document.querySelector("#my-form");
 const userName = document.querySelector("#name");
-// const location = document.querySelector("#location");
+const message = document.querySelector(".msg");
+const sent = document.querySelector(".sent");
 const phone = document.querySelector("#phone");
 const details = document.querySelector("#details");
 
@@ -11,12 +12,15 @@ function onSubmit(e) {
   e.preventDefault();
 
   if (userName.value === "" || phone.value === "" || details.value === "") {
-    alert("Please enter the following information");
-  } else if (phone.value === "") {
-    alert("Please enter phone number");
-  } else if (details.value === "") {
-    alert("Please enter details");
+    message.classList.add("error");
+    message.innerHTML = "Please enter all field";
+
+    // setTimeout(() => message.remove(), 3000);
   } else {
-    alert(`Message sent`);
+    message.classList.add("sent");
+    message.innerHTML = "Successfull";
+    // setTimeout(() => message.remove(), 3000);
   }
+
+  setTimeout(() => message.remove(), 3000);
 }

@@ -1026,6 +1026,26 @@ a:hover {
   border: none;
   background: #f2f2f2;
 }
+.error {
+  background: #ff6433;
+  color: #fff;
+  margin: 5px;
+  padding: 12px;
+  width: 400px;
+  text-align: center;
+  margin-bottom: 12px;
+  border-radius: 5px;
+}
+.sent {
+  background: #33ff99;
+  color: #fff;
+  margin: 5px;
+  padding: 12px;
+  width: 400px;
+  text-align: center;
+  margin-bottom: 12px;
+  border-radius: 5px;
+}
 
 .contact-form .contact-btn {
   /* width: 400px; */
