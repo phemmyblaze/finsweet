@@ -1414,10 +1414,6 @@ a:hover {
   color: #1e1b1b;
 }
 
-.other-news {
-  background: #fff;
-}
-
 .blog-button {
   margin-top: 36px;
 }
@@ -1435,4 +1431,48 @@ a:hover {
 
 .blog-button a:hover {
   background-color: #d9480f;
+}
+
+.other-news {
+  background: #fff;
+  padding: 60px;
+}
+
+.other-news-content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 40px;
+}
+
+.other-new-news img {
+  margin-bottom: 12px;
+}
+
+.other-new-news span {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: #939191;
+}
+
+.other-new-news h4 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  color: #1e1b1b;
+  margin-top: 12px;
+}
+
+.other-new-news p {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+
+  color: #232536;
+  text-align: justify;
+  margin-top: 12px;
+}
+
+.other-news-content-2 {
+  padding-top: 80px;
 }
