@@ -22,5 +22,5 @@ function onSubmit(e) {
     // setTimeout(() => message.remove(), 3000);
   }
 
-  setTimeout(() => message.remove(), 3000);
+  //   setTimeout(() => message.remove(), 3000);
 }
