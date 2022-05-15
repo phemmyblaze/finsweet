@@ -14,13 +14,8 @@ function onSubmit(e) {
   if (userName.value === "" || phone.value === "" || details.value === "") {
     message.classList.add("error");
     message.innerHTML = "Please enter all field";
-
-    // setTimeout(() => message.remove(), 3000);
   } else {
     message.classList.add("sent");
     message.innerHTML = "Successfull";
-    // setTimeout(() => message.remove(), 3000);
   }
-
-  //   setTimeout(() => message.remove(), 3000);
 }
