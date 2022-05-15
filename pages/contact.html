@@ -44,14 +44,18 @@
         </div>
         <div class="contact-context">
           <div class="contact-form">
-            <form action="">
-              <input type="text" placeholder="Enter Name" /> <br />
-              <input type="text" placeholder="Enter Location" /> <br />
-              <input type="text" placeholder="Your phone number" /> <br />
-              <input type="text" placeholder="Give details" />
+            <form id="my-form">
+              <input type="text" id="name" placeholder="Enter Name" /> <br />
+              <input type="text" id="location" placeholder="Enter Location" />
+              <br />
+              <input type="number" id="phone" placeholder="Your phone number" />
+              <br />
+              <input type="text" id="details" placeholder="Give details" />
+
+              <input class="contact-btn" type="submit" value="submit" />
             </form>
 
-            <div class="hero-btn"><a href="#">Send a Message</a></div>
+            <!-- <div class="hero-btn" id="btn"><a href="#">Send a Message</a></div> -->
           </div>
 
           <div class="footer-contact">
@@ -105,5 +109,7 @@
         </div>
       </div>
     </div>
+    <!-- <link rel="script" href="../js/index.js" /> -->
+    <script src="../js/index.js"></script>
   </body>
 </html>

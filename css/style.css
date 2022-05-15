@@ -1027,6 +1027,22 @@ a:hover {
   background: #f2f2f2;
 }
 
+.contact-form .contact-btn {
+  /* width: 400px; */
+  /* height: 57px;
+  padding: 12px; */
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: none;
+  background: #f2f2f2;
+  cursor: pointer;
+}
+
+.contact-form .contact-btn:hover {
+  background: #d9480f;
+  color: #fff;
+}
+
 .contact-form input::placeholder {
   color: #1e1b1b;
 }
