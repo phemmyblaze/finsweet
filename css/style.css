@@ -980,11 +980,16 @@ a:hover {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  margin-top: 180px;
+  padding: 80px;
 }
 
-.contact-img {
+.contact-img img {
   padding-bottom: 128px;
+  margin-left: 230px;
   z-index: 1;
+  transform: scale(1.8);
+  width: 700px;
 }
 .contact {
   margin: 64px;
